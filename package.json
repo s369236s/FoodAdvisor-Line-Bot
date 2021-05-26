@@ -6,7 +6,6 @@
   "scripts": {
     "build": "tsc",
     "start": "node --trace-warnings dist/index.js",
-    "push": "git add . && git commit -m '0' && git push heroku master && heroku logs --tail",
     "dev": "tsc && node --trace-warnings dist/index.js"
   },
   "keywords": [],
